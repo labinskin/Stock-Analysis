@@ -12,7 +12,7 @@ Steve had asked me to write VBA code to help him analyze green stocks that his p
 
 ### Summary
 
-**Benefits**
+**Benefits of Refactoring In General**
 
 The benefits of refactoring code are many. In this particular case, the code became simpler and more efficient, allowing it to run faster. For 2017, the code ran .711 seconds faster (see images below). For 2018, the code ran .6953 seconds faster (see images below).
 
@@ -20,7 +20,7 @@ Insert Images
 
 While these mere fractions of a second don't seem like much for this current dataset, the differences would likely be larger with expanded and larger datasets. These minor improvements can add up, creating an application and program that has better performance. Additional benefits of refactoring code include keeping it clean. While this set of code was written by myself, larger projects usually have more than one code writer. The more writers, the more potential for repetition and redundancies, and/or unnecessary variables and loops, to name just a few potential pitfalls. Any of these could make the program inefficient, but by refactoring it, these problems can be avoided. Another benefit, while not necessarily part of this project, is that code can become outdated and in need of updating. By refactoring it to the latest updates, the coder can improve performance of the application.
 
-**Drawbacks**
+**Drawbacks of Refactoring In General**
 
 While there are many benefits to refactoring code, there are a few potential drawbacks that need to be mentioned. First, refactoring can take time. This, like most projects, had a hard deadline. While this was a fairly simple code and project, larger projects that are either planning on launching into the market or public as quickly as possible, might want to wait on refactoring their code. This project may launch with some bugs that refactoring will fix in the future, but the project may need to sent out for investors to validate their support. Fortunately, for this project, refactoring was the main objective.
 
