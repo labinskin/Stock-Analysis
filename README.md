@@ -42,7 +42,7 @@ One of the major differences is that in the original code, there is a nested loo
 
 ![](https://github.com/labinskin/Stock-Analysis/blob/main/Original%20Code%205%20A_C.png)
 
-Insert Image 3
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Refactored%20Code%203%20A_C.png)
 
 
 
