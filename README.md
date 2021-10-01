@@ -34,9 +34,11 @@ Below are the two images containing the times for the refactored code.
 
 For 2017, the code ran .711 seconds faster, while for 2018, the code ran .6953 seconds faster. While these are only partial seconds faster, Steve would like this code to work on larger datasets. The increase in volume of data could potentially make the difference between the original code and refactored code larger. Now to examine how these differences came about, we are going to compare the two sets of code. First, below immediately you will see the major sections of first the original code, then the refactored code.
 
-Insert Image Original
+**Original**
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/Original%20Code.png)
 
-Insert Image Refactored
+**Refactored**
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/Refactored%20Code.png)
 
 One of the major differences is that in the original code, there is a nested loop, whereas in the refactored code, the nested loop is no longer present. This makes less complicated code overall, as writing a nested loop takes time and precision. The main section and differences I want to touch on concern 5 A-C of the original code and 3 A-C of the refactored code, as it is in these sections of code that major differences appear.
 
