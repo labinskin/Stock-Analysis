@@ -8,6 +8,42 @@ Steve had asked me to write VBA code to help him analyze green stocks that his p
 
 ### Results
 
+**Stock Performance**
+
+Insert 2017 Picture
+
+The return price for 2017 based on the refactored code analysis shows that all the stocks, except TERP, had a positive return, with four stocks (DQ, ENPH, FSLR, and SEDG) reaching triple digit returns. However, the 2018 returns tell a different story (see image below)
+
+Insert 2018 Picture
+
+Only two stocks had positive returns (ENPH and RUN). All other stocks had a negative return. Based on the returns, green stocks appear to be highly volatile. Only ENPH had positive returns in both years. Based on the returns, I would warn Steve and his parents to be wary of investing in green stocks in general. However, if they really wanted to invest in a green stock, I'd recommend ENPH, as it has consistently performed well and brought back positive returns.
+
+**Code Performance**
+
+Below are two images containing the times for the original code.
+
+Insert Image 2017
+
+Insert Image 2018
+
+Below are the two images containing the times for the refactored code.
+
+Insert Image 2017
+
+Insert Image 2018
+
+For 2017, the code ran .711 seconds faster, while for 2018, the code ran .6953 seconds faster. While these are only partial seconds faster, Steve would like this code to work on larger datasets. The increase in volume of data could potentially make the difference between the original code and refactored code larger. Now to examine how these differences came about, we are going to compare the two sets of code. First, below immediately you will see the major sections of first the original code, then the refactored code.
+
+Insert Image Original
+
+Insert Image Refactored
+
+One of the major differences is that in the original code, there is a nested loop, whereas in the refactored code, the nested loop is no longer present. This makes less complicated code overall, as writing a nested loop takes time and precision. The main section and differences I want to touch on concern 5 A-C of the original code and 3 A-C of the refactored code, as it is in these sections of code that major differences appear.
+
+Insert Image 5
+
+Insert Image 3
+
 
 
 ### Summary
