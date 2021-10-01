@@ -54,11 +54,15 @@ One of the major differences in the code is cleaning up the loop running through
 
 ### Summary
 
+**Statement of Advantages and Disadvantages of Refactoring the Original Green Stocks Analysis Code**
+
+The benefits of refactoring code are many. In this particular case, the code became simpler and more efficient, allowing it to run faster. As noted above in the results (and their images): For 2017, the code ran .711 seconds faster. For 2018, the code ran .6953 seconds faster. While these mere fractions of a second don't seem like much for this current dataset, the differences would likely be larger with expanded and larger datasets. Overall, the code looked cleaner and performed quicker and more efficiently.
+
+The disadvantage of refactoring the original code was the time lost in figuring out exactly the right combination of code to make the analysis work. There were hours spent in reworking and testing the code I was writing until it was efficient and worked. Part of this is my newness with VBA and coding. However, we were working with a fairly simple code that ran only a few lines. Even professional coders with years of experience can struggle to properly cleanup original or legacy code that runs for hundreds of lines. So my newness is offset a bit by a simpler/easy code. Refactoring still takes time and can lead to going from code that works, even slightly inefficiently, to a code that is not working very quickly.
+
 **Benefits of Refactoring In General**
 
-The benefits of refactoring code are many. In this particular case, the code became simpler and more efficient, allowing it to run faster. As noted above in the results (and their images): For 2017, the code ran .711 seconds faster. For 2018, the code ran .6953 seconds faster.
-
-While these mere fractions of a second don't seem like much for this current dataset, the differences would likely be larger with expanded and larger datasets. These minor improvements can add up, creating an application and program that has better performance. Additional benefits of refactoring code include keeping it clean. While this set of code was written by myself, larger projects usually have more than one code writer. The more writers, the more potential for repetition and redundancies, and/or unnecessary variables and loops, to name just a few potential pitfalls. Any of these could make the program inefficient, but by refactoring it, these problems can be avoided. Another benefit, while not necessarily part of this project, is that code can become outdated and in need of updating. By refactoring it to the latest updates, the coder can improve performance of the application.
+Even the minor improvements in time noted above can add up, creating an application and program that has better performance. Additional benefits of refactoring code include keeping it clean. While this set of code was written by myself, larger projects usually have more than one code writer. The more writers, the more potential for repetition and redundancies, and/or unnecessary variables and loops, to name just a few potential pitfalls. Any of these could make the program inefficient, but by refactoring it, these problems can be avoided. Another benefit, while not necessarily part of this project, is that code can become outdated and in need of updating. By refactoring it to the latest updates, the coder can improve performance of the application.
 
 **Drawbacks of Refactoring In General**
 
