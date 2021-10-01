@@ -40,7 +40,7 @@ Insert Image Refactored
 
 One of the major differences is that in the original code, there is a nested loop, whereas in the refactored code, the nested loop is no longer present. This makes less complicated code overall, as writing a nested loop takes time and precision. The main section and differences I want to touch on concern 5 A-C of the original code and 3 A-C of the refactored code, as it is in these sections of code that major differences appear.
 
-Insert Image 5
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Original%20Code%205%20A_C.png)
 
 Insert Image 3
 
