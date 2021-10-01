@@ -50,7 +50,7 @@ One of the major differences is that in the original code, there is a nested loo
 
 ![](https://github.com/labinskin/Stock-Analysis/blob/main/Refactored%20Code%203%20A_C.png)
 
-
+One of the major differences in the code is cleaning up the loop running through the cells to find the total volume, the starting price, and ending price. With the total volume, the statement was changed from an `If/Then `statement and code to just a straightforward equation. The more significant cleanup came in what was originally a nested loop (5B and 5C), to what was just part of an `If/Then`series. In the original code there was an additional `And`connection for both lines of code. In the refactored code (3B and 3C), these bits of code are dropped. This both helped simplify and clean up the code, and could be one of the reasons for the improved efficiency in the code.
 
 ### Summary
 
