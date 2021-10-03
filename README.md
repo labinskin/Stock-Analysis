@@ -38,7 +38,8 @@ For 2017, the code ran .711 seconds faster, while for 2018, the code ran .6953 s
 ![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/Original%20Code.png)
 
 **Refactored**
-![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/Refactored%20Code.png)
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Refactored%20Code%20Part%201.png)
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Refactored%20Code%20Part%202.png)
 
 One of the major differences is that in the original code, there is a nested loop, whereas in the refactored code, the nested loop is no longer present. This makes less complicated code overall, as writing a nested loop takes time and precision. The main section and differences I want to touch on concern 5 A-C of the original code and 3 A-C of the refactored code, as it is in these sections of code that differences appear.
 
