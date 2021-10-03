@@ -10,11 +10,11 @@ Steve asked me to write VBA code to help him analyze green stocks that his paren
 
 **Stock Performance**
 
-![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/2017%20Refactored%20Code%20Run%20Time.png)
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
 The return price for 2017 based on the refactored code analysis shows that all the stocks, except TERP, had a positive return, with four stocks (DQ, ENPH, FSLR, and SEDG) reaching triple digit returns. However, the 2018 returns tell a different story (see image below)
 
-![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/2018%20Refactored%20Code%20Run%20Time.png)
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 Only two stocks had positive returns (ENPH and RUN). All other stocks had a negative return. Based on the returns, green stocks appear to be highly volatile. Only ENPH had positive returns in both years. Based on the returns, I would warn Steve and his parents to be wary of investing in green stocks in general. However, if they really wanted to invest in a green stock, I'd recommend ENPH, as it has consistently performed well and brought back positive returns.
 
@@ -28,9 +28,9 @@ Below are two images containing the times for the original code.
 
 Below are the two images containing the times for the refactored code.
 
-![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/2017%20Refactored%20Code%20Run%20Time.png)
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/VBA_Challenge_2017.png)
 
-![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/2018%20Refactored%20Code%20Run%20Time.png)
+![](https://github.com/labinskin/Stock-Analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
 For 2017, the code ran .711 seconds faster, while for 2018, the code ran .6953 seconds faster. While these are only partial seconds faster, Steve would like this code to work on larger datasets. The increase in volume of data could potentially make the difference between the original code and refactored code larger. Now to examine how these differences came about, we are going to compare the two sets of code. First, below immediately you will see the major sections of first the original code, then the refactored code.
 
